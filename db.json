@@ -1,9 +1,117 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "players": [
+    {
+      "id": "1",
+      "first_name": "Jayson",
+      "last_name": "Tatum",
+      "team": "Celtics",
+      "position": "Forward",
+      "Jersey_number": 0,
+      "image": "assets/Jayson Tatum.jpeg",
+      "stats": {
+        "points_per_game": 30.1,
+        "rebounds_per_game": 8.3,
+        "assists_per_game": 4.6,
+        "steals_per_game": 1.1,
+        "blocks_per_game": 0.5
+      }
+    },
+    {
+      "id": "2",
+      "first_name": "Jaylen",
+      "last_name": "Brown",
+      "team": "Celtics",
+      "position": "Guard",
+      "Jersey_number": 7,
+      "image": "assets/Jaylen Brown.jpeg",
+      "stats": {
+        "points_per_game": 26.7,
+        "rebounds_per_game": 6.8,
+        "assists_per_game": 3.4,
+        "steals_per_game": 1.2,
+        "blocks_per_game": 0.4
+      }
+    },
+    {
+      "id": "3",
+      "first_name": "Kristaps",
+      "last_name": "Porzingis",
+      "team": "Celtics",
+      "position": "Center",
+      "Jersey_number": 8,
+      "image": "assets/Kristaps  Porzingis.jpeg",
+      "stats": {
+        "points_per_game": 20.5,
+        "rebounds_per_game": 8.4,
+        "assists_per_game": 1.5,
+        "steals_per_game": 0.6,
+        "blocks_per_game": 1.9
+      }
+    },
+    {
+      "id": "4",
+      "first_name": "Giannis",
+      "last_name": "Antetokounmpo",
+      "team": "Bucks",
+      "position": "Forward",
+      "Jersey_number": 34,
+      "image": "assets/Giannis Antetokounmpo.jpg",
+      "stats": {
+        "points_per_game": 31.1,
+        "rebounds_per_game": 11.8,
+        "assists_per_game": 5.7,
+        "steals_per_game": 0.8,
+        "blocks_per_game": 1.3
+      }
+    },
+    {
+      "id": "5",
+      "first_name": "Damian",
+      "last_name": "Lillard",
+      "team": "Bucks",
+      "position": "Guard",
+      "Jersey_number": 0,
+      "image": "assets/Damian Lillard.jpg",
+      "stats": {
+        "points_per_game": 32.2,
+        "rebounds_per_game": 4.8,
+        "assists_per_game": 7.5,
+        "steals_per_game": 0.9,
+        "blocks_per_game": 0.3
+      }
+    },
+    {
+      "id": "6",
+      "first_name": "Brook",
+      "last_name": "Lopez",
+      "team": "Bucks",
+      "position": "Center",
+      "Jersey_number": 11,
+      "image": "assets/Brook Lopex.jpg",
+      "stats": {
+        "points_per_game": 16.1,
+        "rebounds_per_game": 6.7,
+        "assists_per_game": 1.3,
+        "steals_per_game": 0.5,
+        "blocks_per_game": 2.5
+      }
+    },
+    {
+      "id": "7",
+      "first_name": "Bobby",
+      "last_name": "Portis",
+      "team": "Bucks",
+      "position": "Forward",
+      "Jersey_number": 9,
+      "image": "assets/Bobby Portis.jpg",
+      "stats": {
+        "points_per_game": 13.3,
+        "rebounds_per_game": 9.1,
+        "assists_per_game": 1.8,
+        "steals_per_game": 0.6,
+        "blocks_per_game": 0.4
+      }
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "comments": []
 }
